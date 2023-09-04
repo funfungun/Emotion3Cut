@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="vi">
+
+<head>
+	<title>Trang chủ</title>
+	<meta charset="utf-8">
+	
+	<link rel="shortcut icon" href="/themes/img/favicon.png">
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<!-- ================= Style ================== -->
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/base-color.css">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/subpage.css?t=3">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/index.css?t=3">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/domain-suggestion.css?t=3">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/theme.css?t=3">
+	<link rel="stylesheet" type="text/css" href="/plugins/bootstrap/css/layout.css?t=3">
+	<!-- ================= End Style ================== -->
+
+	<!-- ================= JS ================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/plugins/jquery/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/plugins/jquery/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/plugins/jquery/main.js"></script>
+	<!-- ================= End JS ================== -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23662219-12"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23662219-12');
+	</script>
+<!-- Head -->
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<div class="warning-domain"><i class="fa fa-ban" aria-hidden="true"></i> TÊN MIỀN CỦA BẠN
+			ĐÃ HẾT HẠN SỬ DỤNG. VUI LÒNG LIÊN HỆ  <span> <a href="https://www.vnnic.vn/nhadangky/thongtin/cong-ty-tnhh-phan-mem-inet" target="__blank"> <u>NHÀ ĐĂNG KÝ</u></a>
+			</span> ĐỂ GIA HẠN TÊN MIỀN</div>
+		<div id="menu-mobile" class="hidden-lg hidden-md">
+			<div class="menu-mb__head">
+				<div class="menu-mb__logo">
+					<a href="https://www.vnnic.vn/">
+						<img src="/themes/img/sub_logo.png" alt="sub_logo">
+					</a>
+				</div>
+				<div class="menu-mb__close">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0)">
+							<path
+								d="M11.1047 10.0008L19.7709 1.33445C20.0761 1.02933 20.0761 0.534647 19.7709 0.22957C19.4658 -0.0755077 18.9711 -0.0755467 18.6661 0.22957L9.99975 8.89588L1.33347 0.22957C1.02836 -0.0755467 0.533671 -0.0755467 0.228593 0.22957C-0.0764842 0.534687 -0.0765233 1.02937 0.228593 1.33445L8.89487 10.0007L0.228593 18.667C-0.0765233 18.9722 -0.0765233 19.4668 0.228593 19.7719C0.381132 19.9245 0.581093 20.0007 0.781053 20.0007C0.981014 20.0007 1.18094 19.9245 1.33351 19.7719L9.99975 11.1056L18.666 19.7719C18.8186 19.9245 19.0185 20.0007 19.2185 20.0007C19.4184 20.0007 19.6184 19.9245 19.7709 19.7719C20.0761 19.4668 20.0761 18.9721 19.7709 18.667L11.1047 10.0008Z"
+								fill="#C3C7CB"></path>
+						</g>
+						<defs>
+							<clippath id="clip0">
+								<rect width="20" height="20" fill="white"></rect>
+							</clippath>
+						</defs>
+					</svg>
+				</div>
+			</div>
+
+			<div class="menu-mb__body">
+				<ul class="menu-mb__list">
+					<li class="menu-mb__item main-item has-child">
+						<a title="Trang chủ" href="/">Trang chủ</a>
+					</li>
+					<li class="menu-mb__item main-item has-child">
+						<a title="Tên miền">Tên miền</a>
+						<span class="dropdown-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+						<ul class="menu-mb__sub">
+							<li class="menu-mb__sub-item">
+								<a href="/dang-ky-ten-mien"><i class="fa fa-caret-right" aria-hidden="true"></i>
+									Đăng ký tên miền</a>
+							</li>
+							<li class="menu-mb__sub-item">
+								<a href="/nha-dang-ky"><i class="fa fa-caret-right" aria-hidden="true"></i> Nhà
+									đăng
+									ký</a>
+							</li>
+							<li class="menu-mb__sub-item">
+								<a href="/quan-ly-ten-mien"><i class="fa fa-caret-right" aria-hidden="true"></i>
+									Quản lý tên miền</a>
+							</li>
+							<li class="menu-mb__sub-item">
+								<a href="/tenmien/cam_nang_ten_mien_final.pdf"><i class="fa fa-caret-right"
+										aria-hidden="true"></i>
+									Cẩm nang tên miền</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-mb__item main-item has-child highlight">
+						<a title="Chương trình đặc biệt">Chương trình đặc biệt<span
+												class="star">&#9733;</span></a>
+						<span class="dropdown-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+						<ul class="menu-mb__sub">
+							<li class="menu-mb__sub-item">
+								<a href="/chuong-trinh-id-vn"><i class="fa fa-caret-right" aria-hidden="true"></i>
+									Chương trình id.vn</a>
+							</li>
+							<li class="menu-mb__sub-item">
+								<a href="/chuong-trinh-biz-vn"><i class="fa fa-caret-right"
+										aria-hidden="true"></i> Chương tình biz.vn</a>
+							</li>
+							<li class="menu-mb__sub-item">
+								<a href="/tai-lieu-truyen-thong"><i class="fa fa-caret-right"
+										aria-hidden="true"></i>
+									Tài liệu truyền thông</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-mb__item main-item has-child">
+						<a title="Blog" href="/blog">Blog</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="header-top" class="header-top__desktop">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-xs-2 hidden-lg hidden-md">
+						<a class="menu-bar" href="javascript:void(0)">
+
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M3.5 8.75C3.5 8.26675 3.89175 7.875 4.375 7.875H23.625C24.1082 7.875 24.5 8.26675 24.5 8.75C24.5 9.23325 24.1082 9.625 23.625 9.625H4.375C3.89175 9.625 3.5 9.23325 3.5 8.75Z"
+									fill="#041F3C"></path>
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M3.5 14C3.5 13.5168 3.89175 13.125 4.375 13.125H23.625C24.1082 13.125 24.5 13.5168 24.5 14C24.5 14.4832 24.1082 14.875 23.625 14.875H4.375C3.89175 14.875 3.5 14.4832 3.5 14Z"
+									fill="#041F3C"></path>
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M3.5 19.25C3.5 18.7668 3.89175 18.375 4.375 18.375H23.625C24.1082 18.375 24.5 18.7668 24.5 19.25C24.5 19.7332 24.1082 20.125 23.625 20.125H4.375C3.89175 20.125 3.5 19.7332 3.5 19.25Z"
+									fill="#041F3C"></path>
+							</svg>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
+						<div class="header-top__left">
+							<div class="logo logo-desktop">
+								<a target="_blank" href="https://www.vnnic.vn/">
+									<img src="/themes/img/vnnic-logo-f.png" alt="logo-vi">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-2 col-xs-2">
+						<div class="header-top__right">
+							<div class="content-nav">
+								<a href="/" class="top-direction-button-left">Trang chủ</a>
+								<div class="dropdown tenmien">
+									<button id="select-options" class="dropdown-toggle" type="button"
+										data-toggle="dropdown">
+										<a class="top-direction-button-center">Tên miền</a>
+										<span class="caret"></span></button>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="/dang-ky-ten-mien">Đăng ký tên miền</a>
+										</li>
+										<li>
+											<a href="/nha-dang-ky">Nhà đăng ký</a>
+										</li>
+										<li>
+											<a href="/quan-ly-ten-mien">Quản lý tên miền</a>
+										</li>
+										<li>
+											<a href="/tenmien/cam_nang_ten_mien_final.pdf">Cẩm nang tên miền</a>
+										</li>
+									</ul>
+								</div>
+								<div class="dropdown top-direction-button-right highlight">
+									<button id="select-options" class="dropdown-toggle" type="button"
+										data-toggle="dropdown">
+										<a class="top-direction-button-center highlight">Chương trình đặc biệt <span
+												class="star">&#9733;</span><span class="caret"></span></a>
+									</button>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="/chuong-trinh-id-vn">Chương trình id.vn</a>
+										</li>
+										<li>
+											<a href="/chuong-trinh-biz-vn">Chương trình biz.vn</a>
+										</li>
+										<li>
+											<a href="/tai-lieu-truyen-thong">Tài liệu truyền thông</a>
+										</li>
+									</ul>
+								</div>
+								<a href="/blog" class="top-direction-button-right">Blog</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div>
+		<!-- Slide -->
+		<div id="slide-home-index" class="slide-home owl-carousel owl-theme owl-loaded owl-drag">
+
+			<div class="owl-stage-outer">
+				<div class="owl-stage">
+					<div class="owl-item active">
+						<div class="slide-home__item">
+							<div class="slide-home-index__img">
+								<img src="/themes/img/slider.png" alt="TRUNG TÂM INTERNET VIỆT NAM">
+							</div>
+							<div class="slide-home__content">
+								<div class="container">
+									<div class="slide-home__title">
+										<div class="logo-in-slide">
+											<img src="/themes/img/logo-in-slide-updated.png"
+												alt="logo_in_slide" />
+										</div>
+										<h1>Nâng giá trị website <br> Tạo niềm tin thương hiệu</h1>
+									</div>
+									<div class="search-bar">
+										<form action="/dang-ky" method="POST"><input type="hidden" name="_csrf" value="1a192621-f0f8-4a04-88ca-941dc52e744e"/>
+											<div class="input-group">
+												<input type="text" class="form-control"
+													maxlength="255"
+													placeholder="Hãy nhập tên miền bạn muốn đăng ký" required="required" id="label" name="label" value="">
+												<span class="submit-search">|</span>
+												<div class="input-group-append">
+													<select class="form-select" id="businessType" name="businessType">
+														<option value="null">Lĩnh vực</option>
+														<option value="cuahangtructuyen">Cửa hàng trực tuyến</option>
+														<option value="congnghethongtin">Công nghệ thông tin</option>
+														<option value="thoitrang">Thời trang</option>
+														<option value="lamdep">Làm đẹp</option>
+														<option value="cafe">Cafe</option>
+														<option value="dulich">Du lịch</option>
+														<option value="nghethuat">Nghệ thuật</option>
+														<option value="yte">Y tế</option>
+														<option value="thethao">Thể thao</option>
+														<option value="kientruc">Kiến trúc</option>
+														<option value="taichinh">Tài chính</option>
+														<option value="xaydung">Xây dựng</option>
+														<option value="blog">Blog</option>
+														<option value="tuvan">Tư vấn</option>
+														<option value="trituenhantao">Trí tuệ nhân tạo</option>
+														<option value="thuonghieucanhan">Thương hiệu cá nhân</option>
+														<option value="xaydungappweb">Xây dựng app/ web</option>
+													</select>
+												</div>
+											</div>
+											<input type="submit" class="btn" value="Đăng ký ngay" />
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><img
+						src="/themes/img/prev.png"></button><button type="button" role="presentation"
+					class="owl-next disabled"><img src="/themes/img/next.png"></button></div>
+			<div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div>
+		</div>
+		<!--
+		<div th:if="${!eventData.empty}" class="event-landing">
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<i class="fa fa-times close" aria-hidden="true"></i>
+					<a th:href="@{'/blogtest/' + ${eventData.get(0).blog.link}}"><img th:src='${eventData.get(0).thumbnail}'></a>
+				</div>
+			</div>
+			<div id="myModal2" class="modal-mini-size">
+				<div class="modal-content-mini-size">
+					<i class="fa fa-times close" aria-hidden="true"></i>
+					<a th:href="@{'/blogtest/' + ${eventData.get(0).blog.link}}"><img th:src='${eventData.get(0).thumbnail}'></a>
+				</div>
+			</div>
+		</div>
+		-->
+
+		<body>
+			<!--Content 1-->
+			<div class="parent">
+				<!--Thẻ điều hướng-->
+				<div class="row-section1">
+					<div class="alter-row-section1">
+						<div class="column-section1">
+							<div class="card-section1">
+								<div class="logo-section1"><img src='/themes/img/www.png' alt='' /></div>
+								<div class="card-sub">
+									<div class="title-section1">Cách đăng ký tên miền</div>
+									<a class="btn-card" href="/dang-ky-ten-mien">Xem thêm &#10230; </a>
+								</div>
+							</div>
+						</div>
+						<div class="column-section1">
+							<div class="card-section1">
+								<div class="logo-section1"><img src='/themes/img/trusted.png' alt='' /></div>
+								<div class="card-sub">
+									<div class="title-section1">Các nhà đăng ký tên miền chính thức</div>
+									<a class="btn-card" href="/nha-dang-ky">Xem thêm &#10230; </a>
+								</div>
+							</div>
+						</div>
+						<div class="column-section1">
+							<div class="card-section1">
+								<div class="logo-section1"><img src='/themes/img/shield.png' alt='' /></div>
+								<div class="card-sub">
+									<div class="title-section1">Quản lý tên miền</div>
+									<a class="btn-card" href="/quan-ly-ten-mien">Xem thêm &#10230; </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Content adding 1-->
+				<div class="row banner-id-biz">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 banner-id">
+						<a href="/chuong-trinh-id-vn"><img src='/themes/img/slider-page-id-vn.jpg' alt='' />
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 banner-biz">
+						<a href="/chuong-trinh-biz-vn"><img src='/themes/img/slider-page-biz-vn.jpg'
+								alt='' />
+						</a>
+					</div>
+				</div>
+				<!--Lý do nên sở hữu tên miền .vn-->
+				<div class='content'>
+					<div class='column-section'>
+						<span class="title-section">VÌ SAO CẦN ĐĂNG KÝ TÊN MIỀN?</span>
+						<div class="content-section1-begin">
+							<div class="bounder-img-reason">
+								<img src='/themes/img/build.png' alt='' />
+							</div>
+							<div class='column'>
+								<div class="title-reason">Xây dựng website
+								</div>
+								<div class="content-reason">Đối với các doanh nghiệp, tổ chức hay cá nhân, website đã
+									trở thành một công cụ quan trọng trong việc tạo dựng sự hiện diện và hoạt động quảng
+									bá
+									trên Internet. Sở hữu một tên miền gắn với thương hiệu là điều không thể thiếu
+									trong việc xây dựng website.
+								</div>
+							</div>
+						</div>
+						<div class="content-section1">
+							<div class="bounder-img-reason">
+								<img src='/themes/img/protect.png' alt='' />
+							</div>
+							<div class='column'>
+								<div class="title-reason">
+									Bảo vệ thương hiệu</div>
+								<div class="content-reason">Đăng ký tên miền sẽ giúp doanh nghiệp, tổ chức hay cá nhân
+									tránh khỏi việc tên thương hiệu của mình bị sử dụng cho mục đích khác. Đối với những
+									doanh nghiệp nhập khẩu và phân phối hàng quốc tế, việc đăng ký tên miền cũng giúp
+									loại bỏ nguy cơ tên miền bị sử dụng cho hàng nhái, hàng kém chất lượng trên thị
+									trường.
+								</div>
+							</div>
+						</div>
+						<div class="content-section1">
+							<div class="bounder-img-reason">
+								<img src='/themes/img/communicate.png' alt='' />
+							</div>
+							<div class='column'>
+								<div class="title-reason">Gắn vào tài khoản mạng xã hội/gian hàng trực tuyến</div>
+								<div class="content-reason">Khi chưa có website, tên miền có thể được sử dụng để chuyển
+									hướng tới các trang mạng xã hội hay gian hàng trực tuyến trên các nền tảng bán hàng
+									có sẵn.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="img-section1">
+						<img src='/themes/img/content1-logo-changed.png' alt='' />
+					</div>
+				</div>
+				<div class="line"></div>
+			</div>
+			<!--Content 2-->
+			<div class="container-bound-index">
+				<div class="title-section">
+					LỢI THẾ CỦA TÊN MIỀN .VN</div>
+				<div class="benefit">
+					<img src='/themes/img/benefit-updated-logo-changed.png' alt='' />
+				</div>
+				<div class="benefit-responsive">
+					<div class="benefit-custom-img1"><img src="/themes/img/benefit-res1-logo-updated.png"
+							alt='' /></div>
+					<div class="benefit-title-section">
+						NHẬN DIỆN</div>
+					<div class="benefit-custom-img2"><img src="/themes/img/benefit-res2.png" alt='' /></div>
+					<div class="benefit-contain-bound">
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png" alt='' />Chủ
+							thể
+							được <span class="benefit-custom-content">xác thực danh tính</span> rõ ràng</div>
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png"
+								alt='' />Nhắm
+							đến <span class="benefit-custom-content">thị trường mục tiêu</span> và khẳng định <span
+								class="benefit-custom-content">xuất xứ thương hiệu</span> Việt Nam đến với người tiêu
+							dùng
+						</div>
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png"
+								alt='' /><span class="benefit-custom-content">Lợi thế xếp hạng</span> trên công cụ tìm
+							kiếm</div>
+					</div>
+					<div class="benefit-custom-img3"><img src="/themes/img/benefit-res3.png" alt='' /></div>
+					<div class="benefit-title-section">
+						AN TOÀN</div>
+					<div class="benefit-custom-img2"><img src="/themes/img/benefit-res2.png" alt='' /></div>
+					<div class="benefit-contain-bound">
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png"
+								alt='' />Cung
+							cấp bởi <span class="benefit-custom-content">Trung tâm Internet Việt Nam (VNNIC)</span> Bộ
+							Thông tin và Truyền thông</div>
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png" alt='' />Đạt
+							<span class="benefit-custom-content">tiêu chuẩn quốc tế</span> về an toàn thông tin
+						</div>
+					</div>
+					<div class="benefit-custom-img3"><img src="/themes/img/benefit-res4.png" alt='' /></div>
+					<div class="benefit-title-section">
+						TIN CẬY</div>
+					<div class="benefit-custom-img2"><img src="/themes/img/benefit-res2.png" alt='' /></div>
+					<div class="benefit-contain-bound">
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png" alt='' />Tên
+							miền quốc gia được <span class="benefit-custom-content">công nhận toàn cầu</span> </div>
+						<div class="benefit-contain-content"><img src="/themes/img/bullet-orange.png"
+								alt='' />Được
+							luật pháp Việt Nam <span class="benefit-custom-content">bảo vệ</span> </div>
+					</div>
+				</div>
+				<div class="line">
+				</div>
+				<!--Carousel Quote-->
+				<div>
+					<div class="content-section-01">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<img src='/themes/img/base.png' alt='' />
+						</div>
+						<div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
+							<div id="featured-carousel"
+								class="featured-carousel owl-carousel owl-theme owl-loaded owl-drag">
+								<div class="card-section3">
+									<div class="testimony-wrap d-flex">
+										<div class="user-img" id="person1">
+										</div>
+										<div class="text pl-4">
+											<span class="quote d-flex align-items-center justify-content-center">
+												<i class="ion-ios-quote"></i>
+											</span>
+											<p class="name">Thanh Mai</p>
+											<span class="position">Founder, High Tea Story Vietnam</span>
+										</div>
+
+									</div>
+									<div id="quote-icon">
+										<img src='/themes/img/img.png' alt='' />
+									</div>
+									<br>
+									<div class="quote-bounder">
+										<p class="quote">“Là một thương hiệu phân phối trà Anh Quốc tại Việt Nam, lựa
+											chọn
+											đầu tiên của tôi là tên miền highteastory.vn cho thương hiệu của mình. Theo
+											tôi,
+											tên miền này giúp tôi hướng đến thị trường trong nước hiệu quả hơn!”</p>
+									</div>
+								</div>
+								<div class="card-section3">
+									<div class="testimony-wrap d-flex">
+										<div class="user-img" id="person2">
+										</div>
+										<div class="text pl-4">
+											<span class="quote d-flex align-items-center justify-content-center">
+												<i class="ion-ios-quote"></i>
+											</span>
+											<p class="name">Cindy Lê</p>
+											<span class="position">Founder, Devons Vietnam</span>
+										</div>
+
+									</div>
+									<div id="quote-icon">
+										<img src='/themes/img/img.png' alt='' />
+									</div>
+									<br>
+									<div class="quote-bounder">
+										<p class="quote">“Thương hiệu thời trang của tôi được biết đến ở nhiều nước trên
+											thế
+											giới, tôi sử dụng tên miền .vn như một lời khẳng định về xuất xứ thương
+											hiệu, và
+											luôn tự hào là một thương hiệu Việt Nam”</p>
+									</div>
+								</div>
+								<div class="card-section3">
+									<div class="testimony-wrap d-flex">
+										<div class="user-img" id="person3">
+										</div>
+										<div class="text pl-4">
+											<span class="quote d-flex align-items-center justify-content-center">
+												<i class="ion-ios-quote"></i>
+											</span>
+											<p class="name">Đăng Huy</p>
+											<span class="position">tuoithobencon.vn</span>
+										</div>
+
+									</div>
+									<div id="quote-icon">
+										<img src='/themes/img/img.png' alt='' />
+									</div>
+									<br>
+									<div class="quote-bounder">
+										<p class="quote">“Chúng tôi tin tưởng lựa chọn tên miền ".vn" bởi ".vn" là
+											thương
+											hiệu của quốc gia, và định vị trực tiếp đến khách hàng Việt. Do đó, chúng
+											tôi đã
+											chọn làm trang bán hàng online với tên miền ".vn" mà không phải là các đuôi
+											tên
+											miền khác.”</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="line" id="line-benefit">
+					</div>
+				</div>
+			</div>
+			<!--Content 3-->
+			<div class="container-bound-index">
+				<div class="title-section">
+					BLOG</div>
+			</div>
+			<!--Carousel Blog-->
+			<div id="slide-blog" class="slide-blog owl-carousel owl-theme owl-loaded owl-drag">
+				<div id="slide-blog__item">
+					<a href="/blog/ly-do-chon-ten-mien-vn"><img src="/themes/img/slider1.jpg" alt="" /></a>
+				</div>
+				<div id="slide-blog__item">
+					<a href="/blog/nhu-cau-xay-dung-thuong-hieu-trong-linh-vuc-y-te"><img
+							src="/themes/img/slider2.jpg" alt="" /></a>
+				</div>
+				<div id="slide-blog__item"><a href="/blog/khang-dinh-su-chuyen-nghiep-voi-ten-mien-pro.vn"><img
+							src="/themes/img/slider3.jpg" alt="" /></a></div>
+				<div id="slide-blog__item"><a href="/blog/bi-quyet-lua-chon-ten-mien-phu-hop"><img
+							src="/themes/img/slider4.jpg" alt="" /></a></div>
+			</div>
+			<div class="container-bound-index">
+				<div class="line">
+				</div>
+			</div>
+			<!--Content 4-->
+			<div>
+				<!--Dữ liệu thống kê-->
+				<div class="title-section">THỐNG KÊ</div>
+				<div class="row-tk">
+					<div class="alter-row-tk">
+						<div class="column-thong-ke">
+							<div class="card-tk">
+								<div class="title-thong-ke">583,393</div>
+								<div class="logo-tk"><img src='/themes/img/thongke.png' alt='' /></div>
+								<div class="cnt-thong-ke">Tên miền đang hoạt động</div>
+							</div>
+						</div>
+						<div class="column-thong-ke">
+							<div class="card-tk">
+								<div class="title-thong-ke">9</div>
+								<div class="logo-tk"><img src='/themes/img/thongke.png' alt='' /></div>
+								<div class="cnt-thong-ke">Nhà đăng ký trong nước</div>
+							</div>
+						</div>
+						<div class="column-thong-ke">
+							<div class="card-tk">
+								<div class="title-thong-ke">6</div>
+								<div class="logo-tk"><img src='/themes/img/thongke.png' alt='' /></div>
+								<div class="cnt-thong-ke">Nhà đăng ký quốc tế</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</div>
+	<!--Footer-->
+	<footer>
+		<div id="footer">
+			<div class='footer-container'>
+				<section class='social-media'>
+					<div class='row'>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<a class="social-logo" href='https:/vnnic.vn'>
+								<img src='/themes/img/logo.png' alt='' />
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="footer-info-items">
+								<div class="footer-info-title">TRUNG TÂM INTERNET VIỆT NAM</div>
+								<span class="footer-info-lighter">Địa chỉ: <span class="footer-info"> 18 Nguyễn Du,
+										Hà
+										Nội</span></span>
+								<span class="footer-info-lighter">Điện thoại: <span class="footer-info">
+										+84-24-35564944</span> </span>
+								<span class="footer-info-lighter">Email: <span
+										class="footer-info-mark">domain-support@vnnic.vn </span></span>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="footer-social">
+								<br>
+								<span class="footer-info-lighter">Kết nối với chúng tôi</span>
+								<div class="social-icons">
+									<a target="_blank" href="https://www.facebook.com/myVNNIC/"><i
+											class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a target="_blank"
+										href="https://www.youtube.com/channel/UCLvuvINvucsfLAPrasmz9Cw"><i
+											class="fa fa-youtube-play" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+
+		$('.menu-bar svg').click(function () {
+			$('#menu-mobile').addClass('open');
+		});
+
+		$('.menu-mb__item .dropdown-icon').click(function () {
+			$(this).parent().toggleClass('open');
+		});
+
+		$('.menu-mb__close svg').click(function () {
+			$('#menu-mobile').removeClass('open');
+		});
+
+		/*
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		var modal2 = document.getElementById("myModal2");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		var span1 = document.getElementsByClassName("close")[1];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function () {
+			modal.style.display = "none";
+			modal2.style.display = "block"
+		}
+
+		span1.onclick = function () {
+			modal2.style.display = "none"
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+				modal2.style.display = "block"
+			}
+		}*/
+
+	</script>
+</body>
+
+</html>
